@@ -1,0 +1,41 @@
+.container{
+    width: 50%;
+    height: 50vh;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    background-color:blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container input {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+}
+
+.container button {
+    position: absolute;
+    margin-top: 130px;
+     width: 100px;
+     height: 50px;
+     border-radius: 7px;
+     border: none;
+     outline: none;
+     font-size: 15px;
+     font-weight: 600;
+     cursor: pointer;
+}
+
+.container button:hover{
+    background-color: #000;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}

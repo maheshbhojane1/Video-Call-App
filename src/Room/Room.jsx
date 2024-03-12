@@ -34,7 +34,9 @@ function Room() {
   };
   return (
     <>
+    <div className="container">
       <div ref={myMetting} />
+      </div>
     </>
   );
 }
